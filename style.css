@@ -1,0 +1,13 @@
+.floatright {
+    float: right;
+    padding: 10px;
+}
+
+.floatleft {
+    float: left;
+    padding: 10px;
+}
+
+div {
+    background-color: aqua;
+}
