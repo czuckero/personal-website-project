@@ -3,6 +3,7 @@
     background-color: darkgrey;
     padding: 0px;
     margin: 0px;
+    overflow: hidden;
 }
 
 .navbar a {
@@ -13,3 +14,6 @@
     text-align: center;
 }
 
+.navbar li {
+    float: right;
+}
