@@ -1,17 +1,31 @@
+body {
+    margin: 0px;
+}
+
+h1 {
+    padding: 0px;
+    margin: 10px 10px 10px 10px;
+    color: cornsilk;
+}
+
 .navbar ul {
     list-style-type: none;
-    background-color: darkgrey;
+    background-color: cornflowerblue;
     padding: 0px;
     margin: 0px;
     overflow: hidden;
 }
 
 .navbar a {
-    color: white;
+    color: cornsilk;
     text-decoration: none;
     padding: 15px;
     display: block;
     text-align: center;
+}
+
+.navbar a:hover {
+    background-color: rgba(205, 223, 255, 0.414);
 }
 
 .navbar li {
