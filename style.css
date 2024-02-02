@@ -1,5 +1,6 @@
 body {
     margin: 0px;
+    background-color: rgb(252, 249, 233);
 }
 
 h1 {
@@ -8,12 +9,26 @@ h1 {
     color: cornsilk;
 }
 
+h3 {
+    font-size: 30px;
+    margin: 20px;
+    color: rgb(28, 41, 85);
+}
+
+p {
+    font-size: 20px;
+    color: rgb(28, 41, 85);
+    margin-left: 20px;
+    margin-top: 0px;
+}
+
 .navbar ul {
     list-style-type: none;
     background-color: cornflowerblue;
     padding: 0px;
-    margin: 0px;
+    margin: 10px;
     overflow: hidden;
+    border-radius: 20px;
 }
 
 .navbar a {
@@ -31,3 +46,49 @@ h1 {
 .navbar li {
     float: right;
 }
+
+.sticky {
+    position: fixed;
+}
+
+img {
+    width: 200px;
+    margin: 30px;
+    margin-bottom: 230px;
+    float: right;
+    border: 5px;
+    border-style: solid;
+    border-color: cornflowerblue;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    float: right;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+    padding-top: 50px;
+  }
+
+  footer {
+    background-color: cornflowerblue;
+    color: cornsilk;
+    height: 30px;
+    position: fixed;
+    margin: 10px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 20px;
+  }
+
+  .quote {
+    font-size: 25px;
+    margin: 50px;
+    color: rgb(28, 41, 85);
+  }
