@@ -1,42 +1,64 @@
+html {
+    background-color: rgb(235, 247, 242);
+}
+
 body {
+    height: 900px;
     margin: 0px;
+    padding-bottom: 400px;
     background-color: rgb(252, 249, 233);
+    max-width: 900px;
+    margin: 0 auto;
 }
 
 h1 {
     padding: 0px;
     margin: 10px 10px 10px 10px;
     color: cornsilk;
+    display: inline-block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 h3 {
+    font-size: 40px;
+    margin: 40px 20px 20px 20px;
+    color: rgb(28, 41, 85);
+}
+
+h4 {
     font-size: 30px;
-    margin: 20px;
+    margin: 0px 0px 10px 20px;
     color: rgb(28, 41, 85);
 }
 
 p {
-    font-size: 20px;
+    font-size: 25px;
     color: rgb(28, 41, 85);
     margin-left: 20px;
+    margin-right: 20px;
     margin-top: 0px;
+    display: flex;
+    flex-direction: row;
 }
 
 .navbar ul {
     list-style-type: none;
+    position: fixed;
     background-color: cornflowerblue;
+    left: 0;
+    right: 0;
     padding: 0px;
     margin: 10px;
-    overflow: hidden;
     border-radius: 20px;
 }
 
 .navbar a {
+    display: flex;
     color: cornsilk;
     text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 30px;
     padding: 15px;
-    display: block;
-    text-align: center;
 }
 
 .navbar a:hover {
@@ -44,11 +66,8 @@ p {
 }
 
 .navbar li {
+    margin-left: auto;
     float: right;
-}
-
-.sticky {
-    position: fixed;
 }
 
 img {
@@ -67,28 +86,32 @@ img {
     float: right;
 }
 
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 main {
     display: flex;
     flex-direction: row;
     align-items: center;
-    text-align: left;
     padding-top: 50px;
-  }
+}
 
-  footer {
+footer {
     background-color: cornflowerblue;
-    color: cornsilk;
     height: 30px;
     position: fixed;
-    margin: 10px;
+    margin: 10px 10px 20px 10px;
     left: 0;
     right: 0;
     bottom: 0;
     border-radius: 20px;
-  }
+}
 
-  .quote {
+.quote {
     font-size: 25px;
     margin: 50px;
     color: rgb(28, 41, 85);
-  }
+}
