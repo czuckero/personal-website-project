@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    height: 900px;
+    height: 1000px;
     margin: 0px;
     padding-bottom: 400px;
     background-color: rgb(252, 249, 233);
@@ -73,17 +73,10 @@ p {
 img {
     width: 200px;
     margin: 30px;
-    margin-bottom: 230px;
     float: right;
     border: 5px;
     border-style: solid;
     border-color: cornflowerblue;
-}
-
-.container {
-    display: flex;
-    flex-direction: row;
-    float: right;
 }
 
 section {
@@ -94,7 +87,7 @@ section {
 
 main {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     padding-top: 50px;
 }
@@ -114,4 +107,20 @@ footer {
     font-size: 25px;
     margin: 50px;
     color: rgb(28, 41, 85);
+}
+
+.sectionbox {
+    background-color: rgb(224, 251, 242);
+    border-color: rgb(28, 41, 85);
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 3px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
 }
