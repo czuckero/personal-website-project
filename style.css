@@ -127,3 +127,21 @@ footer {
     flex-direction: column;
     margin: 20px;
 }
+
+form {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: rgb(28, 41, 85);
+}
+
+input {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 0.2em;
+}
+
+textarea {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 0.2em;
+}
