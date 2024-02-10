@@ -6,7 +6,7 @@ body {
     margin: auto;
     background-color: rgb(252, 249, 233);
     max-width: 900px;
-    margin: 0 auto;
+    border-radius: 20px;
 }
 
 h1 {
@@ -138,10 +138,16 @@ input {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     margin: 0.2em;
+    width: 600px;
 }
 
 textarea {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     margin: 0.2em;
+    width: 600px;
+}
+
+article {
+    margin-bottom: 1em;
 }
