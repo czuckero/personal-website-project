@@ -6,7 +6,7 @@ body {
     margin: auto;
     background-color: rgb(252, 249, 233);
     max-width: 900px;
-    margin: 0 auto;
+    border-radius: 20px;
 }
 
 h1 {
@@ -126,4 +126,28 @@ footer {
     display: flex;
     flex-direction: column;
     margin: 20px;
+}
+
+form {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: rgb(28, 41, 85);
+}
+
+input {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 0.2em;
+    width: 600px;
+}
+
+textarea {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 0.2em;
+    width: 600px;
+}
+
+article {
+    margin-bottom: 1em;
 }
