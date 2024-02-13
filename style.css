@@ -3,6 +3,14 @@
         color: black;
         font-size: 10px;
     }
+    
+    input {
+        max-width: 350px;
+    }
+
+    textarea {
+        max-width: 350px;
+    }
 }
 
 html {
@@ -157,4 +165,11 @@ textarea {
 
 article {
     margin-bottom: 1em;
+}
+
+.formcontainer {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
