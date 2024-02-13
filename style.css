@@ -1,3 +1,10 @@
+@media only screen and (max-width: 600px) {
+    .navbar {
+        color: black;
+        font-size: 10px;
+    }
+}
+
 html {
     background-color: rgb(235, 247, 242);
 }
