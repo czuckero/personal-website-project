@@ -163,6 +163,11 @@ textarea {
     width: 600px;
 }
 
+.submit:hover {
+    background-color: rgb(244, 204, 241);
+    transition: 1s ease-in-out;
+}
+
 article {
     margin-bottom: 1em;
 }
